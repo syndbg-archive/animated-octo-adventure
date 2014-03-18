@@ -1,4 +1,5 @@
 def create_list(list_name):
-    file = open(list_name, "w")
+    filename = "list_%s" % filename
+    file = open(filename, "w")
     print("New list <%s> was created" % list_name)
     file.close()
